@@ -39,6 +39,9 @@
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LT-6m-efB">
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bUJ-be-i7M"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmo-er-jOT">
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -47,7 +50,7 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="DUT-rQ-EFx" userLabel="FirstButtonStackView">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="DUT-rQ-EFx" userLabel="FirstButtonStackView">
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZK-Ak-fYR">
                                                 <state key="normal" title="Button"/>
@@ -63,9 +66,15 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etx-za-g5a">
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="dataFromOne_Three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bWa-DF-hfL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzD-nc-83M">
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="dataFromOne_Four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pkM-uY-o5r"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -135,10 +144,24 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="AddedScore" destination="oLp-Qe-wsH" id="ydu-MB-HzT"/>
+                        <outlet property="Four_Four" destination="mKD-Nb-AuA" id="R7u-xe-eDu"/>
+                        <outlet property="Four_One" destination="T4Y-1y-KwN" id="mJo-Nh-LLx"/>
+                        <outlet property="Four_Three" destination="oyx-Ry-zXP" id="kZr-R4-qso"/>
+                        <outlet property="Four_Two" destination="TzV-EL-9ut" id="kkJ-Vs-Opd"/>
+                        <outlet property="One_Four" destination="AzD-nc-83M" id="aEJ-5E-tb3"/>
                         <outlet property="One_One" destination="ZZK-Ak-fYR" id="rE7-Cm-2Um"/>
+                        <outlet property="One_Three" destination="Etx-za-g5a" id="Kqg-R4-mFh"/>
                         <outlet property="One_Two" destination="4XM-HH-1iq" id="Bgg-BJ-yfS"/>
-                        <outlet property="RequiredScore" destination="Fmo-er-jOT" id="8Wr-Z2-Yhj"/>
+                        <outlet property="Three_Four" destination="xfD-JF-jil" id="nBX-Jn-Foa"/>
+                        <outlet property="Three_One" destination="hk9-na-wdD" id="Atx-oL-92w"/>
+                        <outlet property="Three_Three" destination="jOL-4R-sI3" id="gpe-hS-BYb"/>
+                        <outlet property="Three_Two" destination="uiM-ay-Rur" id="xzV-oz-1uh"/>
+                        <outlet property="Two_Four" destination="k9n-ns-3e2" id="HhS-8j-Sud"/>
+                        <outlet property="Two_One" destination="BDn-OX-RAi" id="ebt-Jh-ksV"/>
+                        <outlet property="Two_Three" destination="LT3-k3-eqA" id="QLe-eQ-BnZ"/>
+                        <outlet property="Two_Two" destination="Npl-fM-VK0" id="uaI-JP-jnb"/>
+                        <outlet property="requiredScoreLabel" destination="Fmo-er-jOT" id="HrZ-PN-4Ep"/>
+                        <outlet property="statusMessage" destination="oLp-Qe-wsH" id="k4x-pg-1GG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
