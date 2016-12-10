@@ -14,6 +14,7 @@
 		18D65D381DCAB54F00E8145F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D65D361DCAB54F00E8145F /* LaunchScreen.storyboard */; };
 		18D65D431DCAB54F00E8145F /* AwesomeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D65D421DCAB54F00E8145F /* AwesomeGameTests.swift */; };
 		18D65D4E1DCAB54F00E8145F /* AwesomeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D65D4D1DCAB54F00E8145F /* AwesomeGameUITests.swift */; };
+		18DD65C61DEF5B72004B7FC1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD65C51DEF5B72004B7FC1 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18D65D491DCAB54F00E8145F /* AwesomeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D65D4D1DCAB54F00E8145F /* AwesomeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeGameUITests.swift; sourceTree = "<group>"; };
 		18D65D4F1DCAB54F00E8145F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DD65C51DEF5B72004B7FC1 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				18D65D341DCAB54F00E8145F /* Assets.xcassets */,
 				18D65D361DCAB54F00E8145F /* LaunchScreen.storyboard */,
 				18D65D391DCAB54F00E8145F /* Info.plist */,
+				18DD65C51DEF5B72004B7FC1 /* SettingViewController.swift */,
 			);
 			path = AwesomeGame;
 			sourceTree = "<group>";
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = me;
 				TargetAttributes = {
 					18D65D291DCAB54F00E8145F = {
@@ -261,6 +264,7 @@
 			files = (
 				18D65D301DCAB54F00E8145F /* ViewController.swift in Sources */,
 				18D65D2E1DCAB54F00E8145F /* AppDelegate.swift in Sources */,
+				18DD65C61DEF5B72004B7FC1 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +387,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -503,6 +509,7 @@
 				18D65D541DCAB54F00E8145F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D65D551DCAB55000E8145F /* Build configuration list for PBXNativeTarget "AwesomeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				18D65D571DCAB55000E8145F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D65D581DCAB55000E8145F /* Build configuration list for PBXNativeTarget "AwesomeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				18D65D5A1DCAB55000E8145F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
